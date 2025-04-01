@@ -6,10 +6,17 @@
   <title>송금보내요</title>
 
   <!-- ✅ 카카오톡 미리보기용 OG 태그 -->
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="송금보내요" />
   <meta property="og:description" content="1,000,000원을 보냈어요. 송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요." />
   <meta property="og:image" content="https://i.ibb.co/7bSt4q9/kakaopay-character.png" />
   <meta property="og:url" content="https://jhy299792.github.io/kakao-fake/" />
+
+  <!-- ✅ 트위터 미리보기까지 호환 -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="송금보내요" />
+  <meta name="twitter:description" content="1,000,000원을 보냈어요. 송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요." />
+  <meta name="twitter:image" content="https://i.ibb.co/7bSt4q9/kakaopay-character.png" />
 
   <style>
     * {
@@ -92,7 +99,7 @@
       <img src="https://i.ibb.co/7bSt4q9/kakaopay-character.png" alt="라이언" />
       <div class="amount">1,000,000원을 보냈어요.</div>
       <div class="desc">송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요.</div>
-      <div class="btn">송금 받기</div>
+      <div class="btn" onclick="alert('만우절이야~ 😆');">송금 받기</div>
     </div>
     <div class="footer">
       <img src="https://i.ibb.co/0D1RCG5/kakaopay-logo.png" alt="카카오페이" />
